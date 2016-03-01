@@ -15,6 +15,17 @@ Silverstripe 3
 
 As the module is defining a `Mappable` interface, the actual setup can differ from installation to installation. Here is a simple way of getting started with it.
 
+Given that this is a fork, I've not added it to Packagist. You can still install it though, by adding the following to your `composer.json` file:
+
+```json
+"repositories": [
+	{
+		"type": "vcs",
+		"url": "https://github.com/anselmdk/silverstripe-mappable-light"
+	},
+]
+```
+
 
 ### Model
 
